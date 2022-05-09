@@ -1,0 +1,89 @@
+$btnCollor : #6B6894;
+$btnHoverCollor : #5B587D;
+$btnFunckColor : #484661;
+$btnFunckHoverColor : #3D3C4F;
+
+.textarea{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.keybord{
+    width: 1024px;
+    margin: 50px auto;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.key{
+    width:40px;
+    height:40px;
+    margin: 5px 5px;
+    border: 1px solid #ccc;
+    background-color: $btnCollor;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    p{
+        position: relative;
+    }
+}
+.key:hover{
+    background-color: $btnHoverCollor!important;
+}
+.upper{
+    position: relative;
+    display: flex;
+    left: -10px;
+    top: -15px;
+    font-size: 15px;
+    overflow: hidden;
+}
+#functional{
+    background-color: $btnFunckColor;
+    color: #ccc;
+}
+#functional:hover{
+    background-color: $btnFunckHoverColor!important;
+}
+.key:hover{
+    
+}
+.backspace{
+    width: auto;
+}
+.tab, .del{
+    width: 70px;
+}
+.caps, .left-shift{
+    width: 150px;
+}
+.enter{
+    width: 130px;
+}
+.ctrl-left, .ctrl-right{
+    width: 80px;
+}
+.space{
+    width: 400px;
+    background-color: $btnCollor!important;
+}
+.space:hover{
+    background-color: $btnHoverCollor!important;
+}
+.change-language{
+    width: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
