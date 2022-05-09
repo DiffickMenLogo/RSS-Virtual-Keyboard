@@ -79,5 +79,7 @@ export default function create(){
         <div class="key arr-down" id="functional">&darr;</div>
         <div class="key arr-right" id="functional">&rarr;</div>
     </div>
-</div>`;
+</div>
+<div class="change-language">Change language Shift + Alt</div>
+`;
 }
